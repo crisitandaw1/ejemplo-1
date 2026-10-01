@@ -4,8 +4,45 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0 auto;
+    width: 583px; 
+    height: 1223px;
+}
+
+/* first part */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9E8C6C1A;
+    width: 583px;
+    height: 302px;
+    gap: 40px;    
+}
+
+
+.box-1 p{
+    color: #9E8C6C;
+    font-size: 7px;
+    line-height: 9px;
+    letter-spacing: 0.81px;
+}
+
 img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
+
+}
+
+.name{
+    color: #000000CC;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-size: 51px;
+    width: 257px;
+    line-height:45px;
+    letter-spacing: -0.88;
 }
