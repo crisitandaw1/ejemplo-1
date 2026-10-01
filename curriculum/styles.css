@@ -70,16 +70,15 @@ img{
     left: 259px;
     padding: 6px 0 8px 0;
     margin-top: 15px ;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 /* second part */
 
 .colums {
     display: flex;
-    gap: 80px;            
-    
+    width: 100%; 
+    gap: 140px;
 }
 
 
@@ -87,11 +86,13 @@ img{
 .column-left{
     display: flex;
     flex-direction: column;
-    
 }
 
 .column-right{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
+}
+
+.items{
+    list-style: none;
 }
