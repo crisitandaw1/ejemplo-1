@@ -37,6 +37,16 @@ img{
     top: 18px;
 }
 
+.box-1 p{
+    font-family: 'PT sans Narrow';
+    color: #9E8C6C;
+    font-size: 7px;
+    line-height: 22px;
+    letter-spacing: 0.81px;
+    text-transform: uppercase;  
+    
+}
+
 
 .name{
     color: #000000cc;
@@ -49,15 +59,6 @@ img{
     letter-spacing: -0.88;
 }
 
-.box-1 p{
-    font-family: 'PT sans Narrow';
-    color: #9E8C6C;
-    font-size: 7px;
-    line-height: 9px;
-    letter-spacing: 0.81px;
-    text-transform: uppercase;  
-    margin: 10px 0 0 0 ;  
-}
 
 .btn{
     font-family: 'PT Sans Narrow';
@@ -77,8 +78,8 @@ img{
 
 .colums {
     display: flex;
+    gap: 130px;
     width: 100%; 
-    gap: 140px;
 }
 
 
@@ -86,6 +87,9 @@ img{
 .column-left{
     display: flex;
     flex-direction: column;
+    
+    
+    
 }
 
 .column-right{
@@ -95,4 +99,15 @@ img{
 
 .items{
     list-style: none;
+}
+
+.skillset{
+    font-family: 'PT Sans Narrow';
+    font-size: 7px;
+    color: #9E8C6C;
+    text-transform: uppercase;
+    line-height: 9px;
+    letter-spacing: 0.81px;
+    font-weight: 700;
+
 }
